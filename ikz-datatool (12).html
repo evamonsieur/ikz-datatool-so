@@ -169,7 +169,7 @@
 <script>
 // ── CONFIG ──────────────────────────────────────────────────
 const AIRTABLE_BASE = 'appNiHSDVrEsCW3yw';
-const AIRTABLE_API_KEY = 'patMreVHuORlTd5j6.61af5a1f215a17f1c0589fba41b817cacb1e63be369a1103a01430cbdd12e2e8';
+const AIRTABLE_API_KEY = 'YOUR_API_KEY_HERE';
 
 // ── AIRTABLE API ─────────────────────────────────────────────
 async function atGet(table, params='') {
@@ -813,7 +813,7 @@ function renderSidebar() {
 
 // ── TOPBAR ───────────────────────────────────────────────────
 function renderTopbar() {
-  const titles = {dashboard:'Dashboard', schools:'Alle scholen', month: S.selectedMonth?.name||'Maand'};
+  const titles = {dashboard:'Dashboard', schools:'Alle scholen', 'month': S.selectedMonth?.name||'Maand'};
   return `<div class="topbar">
     <span class="topbar-title">${titles[S.view]||''}</span>
     <div class="school-selector-wrap">
