@@ -1,0 +1,6 @@
+{
+  "name": "ikz-datatool",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" }
+}
